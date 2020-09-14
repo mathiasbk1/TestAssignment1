@@ -15,7 +15,7 @@ Hold the toothpaste with your left hand; turn the cap anti-clockwise.
 Squeeze the toothpaste container to apply a pea-sized dollop on top of the hairy head of the toothbrush.
 Open mouth and insert the toothbrush.
 Run the bristles of the toothbrush on each tooth, in a circular and vibrating motion, applying moderate force.  
-Rinse mouth and toothbruish with clean water. 
+Rinse mouth and toothbrush with clean water. 
 
 
 ### Thoughts on TDD
