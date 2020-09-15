@@ -27,7 +27,7 @@ public class FahrToCelsiusTest {
         double input = 0;
         double expected = -17.8;
         double result = ctf.fahrenheitToCelsius(input);
-        assertTrue(expected == result);
+        assertEquals(expected, result, 0.1);
     }
 
     @Test
@@ -36,7 +36,7 @@ public class FahrToCelsiusTest {
         double input = 1;
         double expected = -17.2;
         double result = ctf.fahrenheitToCelsius(input);
-        assertTrue(expected == result);
+        assertEquals(expected, result, 0.1);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class FahrToCelsiusTest {
         double input = 50;
         double expected = 10;
         double result = ctf.fahrenheitToCelsius(input);
-        assertTrue(expected == result);
+        assertEquals(expected, result, 0.1);
     }
 
     @Test
@@ -54,7 +54,7 @@ public class FahrToCelsiusTest {
         double input = 100;
         double expected = 37.8;
         double result = ctf.fahrenheitToCelsius(input);
-        assertTrue(expected == result);
+        assertEquals(expected, result, 0.1);
     }
 
 

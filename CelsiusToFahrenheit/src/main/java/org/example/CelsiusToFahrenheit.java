@@ -10,17 +10,17 @@ public class CelsiusToFahrenheit {
     static String input;
     static double number;
 
-    public static double round(double value, int precision) {
+/*    public static double round(double value, int precision) {
         int scale = (int) Math.pow(10, precision);
         return (double) Math.round(value * scale) / scale;
-    }
+    }*/
 
     public static double celsiusToFahrenheit(double number) {
-        return round((number * 1.8) + 32, 1);
+        return (number * 1.8) + 32;
     }
 
     public static double fahrenheitToCelsius(double number) {
-        return round((number - 32) / 1.8, 1);
+        return (number - 32) / 1.8;
     }
 
 

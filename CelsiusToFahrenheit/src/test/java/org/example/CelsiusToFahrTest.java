@@ -19,7 +19,7 @@ public class CelsiusToFahrTest {
         double input = 0;
         double expected = 32;
         double result = ctf.celsiusToFahrenheit(input);
-        assertTrue(expected == result);
+        assertEquals(expected, result, 0.1);
     }
 
     @Test
@@ -28,8 +28,7 @@ public class CelsiusToFahrTest {
         double input = 1;
         double expected = 33.8;
         double result = ctf.celsiusToFahrenheit(input);
-        assertTrue(expected == result);
-    }
+        assertEquals(expected, result, 0.1);    }
 
     @Test
     public void mustReturnCorrectlyWhenInputIs50() {
@@ -37,8 +36,7 @@ public class CelsiusToFahrTest {
         double input = 50;
         double expected = 122;
         double result = ctf.celsiusToFahrenheit(input);
-        assertTrue(expected == result);
-    }
+        assertEquals(expected, result, 0.1);    }
 
     @Test
     public void mustReturnCorrectlyWhenInputIs100() {
@@ -46,7 +44,6 @@ public class CelsiusToFahrTest {
         double input = 100;
         double expected = 212;
         double result = ctf.celsiusToFahrenheit(input);
-        assertTrue(expected == result);
-    }
+        assertEquals(expected, result, 0.1);    }
 
 }
